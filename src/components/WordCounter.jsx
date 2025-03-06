@@ -14,6 +14,13 @@ const WordCounter = () => {
     setText(e.target.value)
   }
 
+  const handleReset = () => {
+    const confirm = window.confirm('Are you sure you want to reset?')
+    if (confirm) {
+      setText('')
+    }
+  }
+
   const wordCount = text.trim() === '' ? 0 : text.trim().split(/\s+/).length
   const charCount = text.length
 
@@ -35,6 +42,7 @@ const WordCounter = () => {
           Characters: <span className="font-semibold">{charCount}</span>
         </p>
       </div>
+      <ResetButton onReset={handleReset} />
     </div>
   )
 }
