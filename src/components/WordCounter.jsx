@@ -17,7 +17,7 @@ const WordCounter = () => {
 
   return (
     <div className="max-w-xl mx-auto mt-10 p-4 border rounded-lg shadow-lg">
-      <h1>Word Counter</h1>
+      <h1 className="text-2xl font-bold mb-4">Word Counter</h1>
       <textarea
         rows="6"
         value={text}
