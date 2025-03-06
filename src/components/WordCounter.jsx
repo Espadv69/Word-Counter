@@ -1,6 +1,8 @@
 import { useState, useEffect } from 'react'
 import { saveText, getText } from '../utils/localStorage'
 
+import ResetButton from './ResetButton'
+
 const WordCounter = () => {
   const [text, setText] = useState(getText(''))
 
