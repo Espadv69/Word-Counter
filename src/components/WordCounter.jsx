@@ -16,7 +16,7 @@ const WordCounter = () => {
   const charCount = text.length
 
   return (
-    <div className="">
+    <div className="max-w-xl mx-auto mt-10 p-4 border rounded-lg shadow-lg">
       <h1>Word Counter</h1>
       <textarea
         rows="6"
