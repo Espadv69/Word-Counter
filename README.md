@@ -1,12 +1,38 @@
-# React + Vite
+# Word Counter App
 
-This template provides a minimal setup to get React working in Vite with HMR and some ESLint rules.
+A simple React app that counts words and characters in real-time. Users can type in a text area and see the live word and character count. Useful for writers, students, and anyone who needs to track text length. 🚀
 
-Currently, two official plugins are available:
+## Features
+- 📝 Live word and character count
+- 🎨 Simple and clean UI
+- 📱 Responsive design
+- 💾 No data loss (persists text in localStorage)
 
-- [@vitejs/plugin-react](https://github.com/vitejs/vite-plugin-react/blob/main/packages/plugin-react/README.md) uses [Babel](https://babeljs.io/) for Fast Refresh
-- [@vitejs/plugin-react-swc](https://github.com/vitejs/vite-plugin-react-swc) uses [SWC](https://swc.rs/) for Fast Refresh
+## Installation
 
-## Expanding the ESLint configuration
+1. Clone the repository:
+   ```bash
+   git clone https://github.com/Espadv69/Word-Counter.git
+  ```
+2. Navigate to the project folder:
+  ```bash
+  cd Word-Counter
+  ```
+3. Install dependencies:
+  ```bash
+  npm install
+  ```
+4. Start the development server:
+  ```bash
+  npm run dev
+  ```
 
-If you are developing a production application, we recommend using TypeScript and enable type-aware lint rules. Check out the [TS template](https://github.com/vitejs/vite/tree/main/packages/create-vite/template-react-ts) to integrate TypeScript and [`typescript-eslint`](https://typescript-eslint.io) in your project.
+## Usage
+- Type text into the input area.
+- The app will automatically update the word and character count.
+- Text persists even if you refresh the page.
+
+## Technologies Used
+- React (Vite)
+- JavaScript (ES6+)
+- Tailwindcss
