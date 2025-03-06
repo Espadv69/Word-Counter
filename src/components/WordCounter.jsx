@@ -14,6 +14,26 @@ const WordCounter = () => {
 
   const wordCount = text.trim() === '' ? 0 : text.trim().split(/\s+/).length
   const charCount = text.length
+
+  return (
+    <div className="">
+      <h1>Word Counter</h1>
+      <textarea
+        rows="6"
+        value={text}
+        onChange={handleChange}
+        placeholder="Type something..."
+      />
+      <div className="">
+        <p>
+          Words: <span>{wordCount}</span>
+        </p>
+        <p>
+          Characters: <span>{charCount}</span>
+        </p>
+      </div>
+    </div>
+  )
 }
 
 export default WordCounter
