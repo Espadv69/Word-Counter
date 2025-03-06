@@ -19,17 +19,18 @@ const WordCounter = () => {
     <div className="max-w-xl mx-auto mt-10 p-4 border rounded-lg shadow-lg">
       <h1 className="text-2xl font-bold mb-4">Word Counter</h1>
       <textarea
+        className="w-full p-2 border rounded-md focus:outline-none focus:ring-2 focus:ring-blue-500"
         rows="6"
         value={text}
         onChange={handleChange}
         placeholder="Type something..."
       />
-      <div className="">
+      <div className="mt-3 text-gray-700">
         <p>
-          Words: <span>{wordCount}</span>
+          Words: <span className="font-semibold">{wordCount}</span>
         </p>
         <p>
-          Characters: <span>{charCount}</span>
+          Characters: <span className="font-semibold">{charCount}</span>
         </p>
       </div>
     </div>
