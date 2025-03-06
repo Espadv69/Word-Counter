@@ -7,6 +7,10 @@ const WordCounter = () => {
   useEffect(() => {
     saveText(text)
   }, [text])
+
+  const handleChange = (e) => {
+    setText(e.target.value)
+  }
 }
 
 export default WordCounter
