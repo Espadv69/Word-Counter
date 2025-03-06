@@ -13,19 +13,22 @@ A simple React app that counts words and characters in real-time. Users can type
 1. Clone the repository:
    ```bash
    git clone https://github.com/Espadv69/Word-Counter.git
-  ```
+   ```
+
 2. Navigate to the project folder:
-  ```bash
-  cd Word-Counter
-  ```
+   ```bash
+   cd Word-Counter
+   ```
+
 3. Install dependencies:
-  ```bash
-  npm install
-  ```
+   ```bash
+   npm install
+   ```
+
 4. Start the development server:
-  ```bash
-  npm run dev
-  ```
+   ```bash
+   npm run dev
+   ```
 
 ## Usage
 - Type text into the input area.
