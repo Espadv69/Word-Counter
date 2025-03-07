@@ -11,7 +11,11 @@ const WordCounter = () => {
   }, [text])
 
   const handleChange = (e) => {
-    setText(e.target.value)
+    let inputText = e.target.value
+
+    inputText = inputText.replace(/\s{2,}/g, ' ')
+
+    setText(inputText)
   }
 
   const handleReset = () => {
@@ -21,8 +25,10 @@ const WordCounter = () => {
     }
   }
 
-  const wordCount = text.trim() === '' ? 0 : text.trim().split(/\s+/).length
-  const charCount = text.length
+  const cleanedText = text.replace(/\s+/g, ' ').trim()
+
+  const wordCount = cleanedText === '' ? 0 : cleanedText.split(' ').length
+  const charCount = cleanedText.length
 
   return (
     <div className="max-w-xl mx-auto mt-10 p-4 border rounded-lg shadow-lg">
