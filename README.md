@@ -41,3 +41,7 @@ A simple React app that counts words and characters in real-time. Users can type
 - React (Vite)
 - JavaScript (ES6+)
 - Tailwindcss
+
+## Live Demo
+
+![Link to live demo (https://word-counter-espadv.netlify.app/)]
