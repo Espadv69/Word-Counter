@@ -2,6 +2,8 @@
 
 A simple React app that counts words and characters in real-time. Users can type in a text area and see the live word and character count. Useful for writers, students, and anyone who needs to track text length. 🚀
 
+![Word-Counter Screenshot](./public/screenshot.png)
+
 ## Features
 - 📝 Live word and character count
 - 🎨 Simple and clean UI
